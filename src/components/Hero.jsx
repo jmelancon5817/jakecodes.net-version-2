@@ -11,7 +11,7 @@ function Hero() {
         <img className="hero-image" src={heroImage2}></img>
         <img className="hero-image" src={heroImage3}></img>
       </div>
-      <div>
+      <div className="hero-text-container">
         <p className="hero-text">
           Call me <span>Jake</span>
         </p>
