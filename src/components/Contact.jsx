@@ -38,12 +38,13 @@ function Contact() {
               id="message"
               placeholder="Message"
               cols="30"
-              rows="10"
+              rows="4"
               required
             ></textarea>
           </div>
-
-          <button className="underline">Send Message</button>
+          <div className="button-box">
+            <button className="underline">Send Message</button>
+          </div>
         </form>
       </div>
     </div>
