@@ -12,7 +12,7 @@ function Nav() {
             <h3>Jacob Melancon | Portfolio</h3>
           </div>
           <a
-            href="#"
+            href="/#"
             className="nav-menu"
             id="hamburger"
             onClick={() => {
@@ -42,7 +42,7 @@ function Nav() {
             <h3>Jacob Melancon | Portfolio</h3>
           </div>
           <a
-            href="#"
+            href="/#"
             className="nav-menu"
             id="hamburger"
             onClick={() => {
