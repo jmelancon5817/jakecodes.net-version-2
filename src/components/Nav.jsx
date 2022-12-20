@@ -7,7 +7,7 @@ function Nav() {
     <div>
       {menu ? (
         <nav id="nav" className="nav open">
-          <div className="overlay has-fade fade-in"></div>
+          <div className="overlay has-fade fade-in "></div>
           <div className="nav-header">
             <h3>Jacob Melancon | Portfolio</h3>
           </div>
@@ -23,7 +23,12 @@ function Nav() {
             <span></span>
             <span></span>
           </a>
-          <div className="nav-drop has-fade fade-in">
+          <div
+            className="nav-drop has-fade fade-in "
+            onClick={() => {
+              SetMenu(!menu);
+            }}
+          >
             <a href="#nav">Home</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
@@ -55,7 +60,7 @@ function Nav() {
             <a href="#contact">Contact</a>
           </div>
 
-          <div className="nav-drop has-fade fade-out">
+          <div className="nav-drop has-fade fade-out ">
             <a href="#nav">Home</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
