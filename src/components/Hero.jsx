@@ -7,9 +7,9 @@ function Hero() {
   return (
     <div className="hero-container">
       <div className="image-grid">
-        <img className="hero-image" src={heroImage1}></img>
-        <img className="hero-image" src={heroImage2}></img>
-        <img className="hero-image" src={heroImage3}></img>
+        <img className="hero-image" src={heroImage1} alt="heroImage1"></img>
+        <img className="hero-image" src={heroImage2} alt="heroImage2"></img>
+        <img className="hero-image" src={heroImage3} alt="heroImage3"></img>
       </div>
       <div className="hero-text-container">
         <p className="hero-text">

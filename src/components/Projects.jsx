@@ -9,7 +9,7 @@ function Projects() {
         <img
           className="projects-image"
           src={easyBank}
-          alt=""
+          alt="project thumbnail"
           width="100%"
           height="80%"
         />
@@ -32,7 +32,7 @@ function Projects() {
         <img
           className="projects-image"
           src={tipCalculator}
-          alt=""
+          alt="project thumbnail"
           width="100%"
           height="80%"
         />
