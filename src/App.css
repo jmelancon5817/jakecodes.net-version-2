@@ -115,6 +115,7 @@ nav {
 
 .nav-header {
   font-size: var(--fs-18);
+  position: fixed;
 }
 
 .nav-links a {
